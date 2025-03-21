@@ -17,23 +17,10 @@ function Login() {
                 <div className="bg-white-500 w-full h-full rounded-md">
                     <form onSubmit={handleSubmit} className="w-full max-w-md p-6">
                         <h2>Iniciar Sesion</h2>
-                        {/* Correo */}
-                        <div className="mt-4">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                                Correo Electrónico
-                            </label>
-                            <input 
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
-                                id="email" 
-                                type="email" 
-                                placeholder="correo@ejemplo.com" 
-                                onChange={(e) => setEmail(e.target.value)}
-                            />
-                        </div>
                         {/* Contraseña */}
                         <div className="mt-4">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                                Correo Electrónico
+                                Contraseña
                             </label>
                             <input 
                                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
