@@ -1,10 +1,9 @@
-import React from "react";
-import { Router, RouteObject } from "react-router-dom";
+import { RouteObject } from "react-router-dom";
 import Login from "./components/Auth/Login/Login";
 
 const router: RouteObject[]=[
     {
-        path: "/",
+        path: "/Login",
         element: <Login />,
     }
 ];
