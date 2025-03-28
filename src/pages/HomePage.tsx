@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navbar/Navbar"
 
 function HomePage(){
@@ -5,7 +6,7 @@ function HomePage(){
         <>
         <div className="w-full h-screen">
             <Navbar/>
-            <HomePage/>
+            <Footer/>
         </div>
         </>
     )
